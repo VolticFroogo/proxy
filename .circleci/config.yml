@@ -7,7 +7,7 @@ jobs:
     docker:
       - image: circleci/golang:1.13.6
 
-    working_directory: /go/src/github.com/{{ORG_NAME}}/{{REPO_NAME}}
+    working_directory: /go/src/github.com/VolticFroogo/proxy
     steps:
       - checkout
       - run: go get -v -t -d ./...
